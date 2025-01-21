@@ -1,4 +1,4 @@
-package org.example.javafxpaint;
+package com.javafx;
 
 @FunctionalInterface
 public interface TwoParameterFunction<T, U, R> {

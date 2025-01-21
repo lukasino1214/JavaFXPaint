@@ -1,8 +1,9 @@
-module org.example.javafxpaint {
+module org.example.demo4 {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
-    opens org.example.javafxpaint to javafx.fxml;
-    exports org.example.javafxpaint;
+    opens com.javafx to javafx.fxml;
+    exports com.javafx;
 }
